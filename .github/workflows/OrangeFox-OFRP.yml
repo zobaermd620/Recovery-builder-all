@@ -113,10 +113,10 @@ jobs:
         export FOX_USE_SED_BINARY=0
         export FOX_USE_TAR_BINARY=0
         export OF_VANILLA_BUILD=1
-        export OF_NO_SAMSUNG_SPECIAL
-        export FOX_DRASTIC_SIZE_REDUCTION
-        export FOX_REMOVE_BASH
-        export FOX_REPLACE_BUSYBOX_PS
+        export OF_NO_SAMSUNG_SPECIAL=1
+        export FOX_DRASTIC_SIZE_REDUCTION=1
+        export FOX_REMOVE_BASH=1
+        export FOX_REPLACE_BUSYBOX_PS=1
         set -e
         ${{ steps.fox_branch.outputs.value }}
 
