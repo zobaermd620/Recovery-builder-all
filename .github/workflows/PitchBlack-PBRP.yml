@@ -136,7 +136,7 @@ jobs:
         cd android-recovery
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
-        export PB_GO := TRUE
+        export PB_GO=true
         lunch ${{ env.DEVICE_MAKEFILE }}-eng && mka ${{ github.event.inputs.BUILD_TARGET }}
 
     - name: Check Build Makefile
