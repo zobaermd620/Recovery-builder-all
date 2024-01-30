@@ -123,6 +123,7 @@ jobs:
         export FOX_EXTREME_SIZE_REDUCTION=1
         export OF_STATUS_H=144
         export OF_SCREEN_H=2400
+        export OF_FIX_DECRYPTION_ON_DATA_MEDIA=1
         set -e
         ${{ steps.fox_branch.outputs.value }}
 
