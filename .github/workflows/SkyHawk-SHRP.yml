@@ -10,7 +10,7 @@ on:
       MANIFEST_BRANCH:
         description: 'SHRP Manifest Branch'
         required: true
-        default: 'v3_11.0'
+        default: 'shrp-12.1'
         type: choice
         options:
         - shrp-12.1
